@@ -27,7 +27,7 @@ document.getElementById("nextButton").addEventListener("click", async () => {
         });
 
         // Redirect to the second phase website
-        const secondPhaseUrl = "https://67f6980391825d00869eb6d5--fanciful-kringle-ac3336.netlify.app/";
+        const secondPhaseUrl = "https://admirable-dolphin-e1018b.netlify.app/";
         window.location.href = `${secondPhaseUrl}?name=${encodeURIComponent(name)}&age=${encodeURIComponent(age)}&gender=${encodeURIComponent(gender)}&email=${encodeURIComponent(email)}`;
     } catch (error) {
         console.error("Error saving data:", error);
